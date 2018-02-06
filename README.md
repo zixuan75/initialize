@@ -1,7 +1,9 @@
 # initialize
 A simple python program.
 
-**Use this on ubuntu 16.04 to run:**
+**Usage:**
+
+Please change your python file from 'Your account' to your logged in account, and because it it 'Your account'. You shouldn't change to '_your username_', it is not work.
 
 <code>cd python_package</code>
 
