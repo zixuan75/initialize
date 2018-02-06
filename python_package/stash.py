@@ -11,6 +11,8 @@ def unstashFiles(unstash):
 
 if stashedFiles != "":
     print("Stashed files: "+stashedFiles+"\nFiles stashed")
+    if (os.path.exists("stashed.txt") ):
+        unstashFiles("stashed.txt")
 
 if unstashedFiles != "":
     print("Unstashed files: "+unstashedFiles+"\nFiles unstashed")
