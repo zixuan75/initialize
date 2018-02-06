@@ -5,4 +5,4 @@ A simple python program.
 
 <code>cd python_package</code>
 
-<code>python3.5 init.py</code>
+<code>python3.5 __init__.py</code>
