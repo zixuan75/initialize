@@ -15,6 +15,10 @@ if stashedFiles != "":
         unstashFiles("stashed.txt")
     core=open("stashing.txt")
     core.write(stashedFiles)
+    core.close()
 
 if unstashedFiles != "":
     print("Unstashed files: "+unstashedFiles+"\nFiles unstashed")
+    core2=open("unstashing.txt")
+    core2.write(unstashedFiles)
+    core2.close()
