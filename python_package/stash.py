@@ -1,12 +1,12 @@
 stashedFiles="";
 unstashedFiles="";
-stashing=false;
+stashing=False;
 def stashFiles(stash):
-    stashing=true;
+    stashing=True;
     stashedFiles=stash;
 
 def unstashFiles(unstash):
-    stashing=false;
+    stashing=False;
     unstashedFiles=unstash;
 
 if stashedFiles != "":
