@@ -9,6 +9,6 @@ Then run:
 
 <code>cd python_package</code>
 
-and
+and you do that to run our program:
 
 <code>python3.5 init.py</code>
