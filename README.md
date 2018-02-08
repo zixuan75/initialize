@@ -1,11 +1,9 @@
 # initialize
 A simple python program.
+If you don't have a .txt file, it does not work.
 
 **Usage:**
-
-Please change your python file from 'Your account' to your logged in account, and because it it 'Your account'. You shouldn't change to '_your username_', if you change to that, it is not work. And if you don't change, it is also not work.
-
-Then run:
+Run:
 <code>cd python_package</code>
 and
 <code>python3.5 init.py</code>
